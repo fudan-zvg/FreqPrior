@@ -17,3 +17,6 @@
   year={2025}
 }
 ```
+
+## Acknowledgement
+The example code is built upon [FreeInit](https://github.com/TianxingWu/FreeInit). Thanks to the team for their impressive work!
