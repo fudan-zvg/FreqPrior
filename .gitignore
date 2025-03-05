@@ -173,6 +173,7 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# FreqPrior Models Ckpt
 examples/AnimateDiff/models/StableDiffusion/*
 !examples/AnimateDiff/models/StableDiffusion/*.txt
 examples/AnimateDiff/models/Motion_Module/
@@ -181,3 +182,7 @@ examples/AnimateDiff/models/DreamBooth_LoRA/
 !examples/AnimateDiff/models/DreamBooth_LoRA/*.txt
 examples/AnimateDiff/models/MotionLoRA/
 !examples/AnimateDiff/models/MotionLoRA/*.txt
+
+# FreqPrior outputs
+examples/AnimateDiff/samples
+examples/AnimateDiff/outputs

@@ -7,6 +7,12 @@ This repository is the official implementation of the following paper:
 > **FreqPrior: Improving Video Diffusion Models with Frequency Filtering Gaussian Noise**
 > Yunlong Yuan, Yuanfan Guo, Chunwei Wang, Wei Zhang, Hang Xu, Li Zhang
 
+<div>
+    <h4 align="center">
+        <img src="./assets/teaser.gif">
+    </h4>
+</div>
+
 
 ## 🛠️ Pipeline
 <div align="center">
@@ -46,6 +52,13 @@ python -m scripts.animate_with_freqprior \
     --mid_step 321 \
     --save_intermediate \
     --use_fp16
+```
+
+### Numerical Results
+We perform theoretical analysis on several methods and conduct numerical experiments to validate our findings.
+The numerical results can be obtained by running the script *covariance_error.py*. Use the following command: 
+```
+python covariance_error.py --filter [FILTER TYPE] --shape [(T, H, W)]
 ```
 
 ## :fountain_pen: BibTex
